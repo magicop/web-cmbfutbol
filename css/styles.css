@@ -1,0 +1,468 @@
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.navv{
+	background: #000;
+}
+
+.pruebaImagen2 img{
+	height:250px;
+	width: 100%;
+	
+
+}
+.pruebaImagen3 img{
+	width:100%;
+	height:250px;
+}
+.pruebaImagen4 img{
+	width:100%;
+	height:400px;
+}
+
+.pruebaContainer{
+	margin-top:-4.3%;
+}
+.negro{
+	background:black;
+}
+.negro2{
+	
+	background-color:black;
+}
+.blanco{
+	background:white;
+}
+.textoNav{
+	font-size:16px;
+	color:gray;
+}
+.banner{
+	width:100%;
+	height:100px;
+}
+.primerNav{
+	font-size:14px;
+}
+.colorBlanco{
+	color:white;
+}
+.zoom img{
+    transition: all 1s ease;
+}
+.zoom img:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);     
+   
+
+}
+.textoNav:hover{
+	color:white;
+}
+.textosNavBar:hover{
+	border-bottom: 1px solid white;
+}
+.definitivoNav{
+	border-bottom: 1px solid white;
+	max-width:90%;	
+}
+.efectoBoton{
+	background-color:white; 
+	color:black;
+}
+.efectoBoton:hover{
+	background-color:black;
+	color:white;
+}
+.btnVerMas{
+	background-color:white; 
+	color:black;
+	border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btnVerMas:hover{
+	background-color:black;
+	color:white;
+}
+.cambioBlanco{
+	color:#858585;
+	transition: color 1.2s;
+}
+.cambioBlanco:hover{
+    color:white;
+}
+.cambioBlanco2{
+	color:#AFAFAF;
+	transition: color 0.8s;
+}
+.cambioBlanco2:hover{
+    color:white;
+}
+.gris{
+	color:#AFAFAF;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.zoom1{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	box-sizing: border-box;
+}
+.zoom2{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	
+	box-sizing: border-box;
+}
+.zoom3{
+	width: 25%;
+	height: 50%;
+	float: left;
+	position: sticky;
+	overflow: hidden;
+	
+	box-sizing: border-box;
+}
+.img-fluid{
+	max-width: 100%; 
+	height: auto;
+}
+.zoom:hover{
+	opacity:0.7;
+}
+.zoom6{
+	width: 10%;
+	height: 10%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	
+	box-sizing: border-box;
+}
+
+.zoom4{
+
+    /* Aumentamos la anchura y altura durante 2 segundos */
+
+    transition: width 2s, height 2s, transform 2s;
+
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+
+}
+
+.zoom4:hover{
+
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+
+       su tamaño con scale(2). */
+
+    transform : scale(1.005);
+
+    -moz-transform : scale(1.005);      /* Firefox */
+
+    -webkit-transform : scale(1.005);   /* Chrome - Safari */
+
+    -o-transform : scale(1.005);        /* Opera */
+
+    opacity:0.9870;
+    color:black;
+    transition: color 1.2s;
+    transition: background-color 0.5s ease;
+    background-color:white;
+
+}
+.zoom5{
+	width: 50%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	
+	box-sizing: border-box;
+}
+.zoom5 img{
+    transition: all 1s ease;
+}
+.zoom5 img:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);     
+   
+}
+.interlineado{
+	line-height: 0.5;
+}
+
+.intentoRedes{
+	background-color: black;
+	color: white;
+}
+.intentoRedes:hover{ 
+    background-color: black;
+	color: yellow;
+}
+
+.hoverStore:hover{
+	opacity:0.6;
+}
+
+.pruebaRRSS{
+	background:url('images/fb.png') no-repeat 0 0;
+}
+.pruebaRRSS:hover{
+	background:url('images/inst.png') no-repeat 0 0;
+}
+
+.youtube{
+	background-image: url('/images/fb.png');
+}
+
+.btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    color: orange;
+}
+
+.textoContacto{
+	font-size:18px;
+}
+/*.pruebaRRSS{
+	transition: .5s ease;
+  	background-color: black;
+}
+.pruebaRRSS:hover{
+	background-color: yellow;
+}
+*/
+
+
+/*
+.btn {
+    background-color: black;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: orange;
+    color: white;
+}
+*/
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
+
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+	.primerSlide{
+		height:500px;
+	}
+	.pruebaImagen2{
+		height: 250px;
+		width: 100%;
+	}
+	.pruebaImagen3{
+		width:100%;
+		height:250px;
+	}
+	.segundoSlide{
+		height:600px;
+	}
+	
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+	.primerSlide{
+		height:350px;
+	}
+	.pruebaImagen2{
+		height: 175px;
+		max-width: 100%;
+	}
+	.pruebaImagen3{
+		height:175px;
+		max-width: 100%;
+	}
+	.segundoSlide{
+		height:400px;
+		width:70%;
+	}
+	.trayDepgrid2{
+		margin-left:-140px;
+	}
+	.interlineado{
+		line-height: 0.7;
+	}
+	.logoYoutubeFooter{
+		position:absolute;
+	}
+	.imagenesNoticias{
+		height:50px;
+		width:50px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	.primerSlide{
+		height:350px;
+		max-width: 100%;
+	}
+	.pruebaImagen2{
+		display: none;
+	}
+	.pruebaImagen3{
+		display: none;
+	}
+	.desaparecer{
+		display:none;
+	}
+	.primerCarousel{
+		width:100%;
+	}
+	.headerBanner{
+		height:100px;
+
+	}
+	.trayDepgrid1{
+		display:none;
+	}
+	.logoNike{
+		margin-top:100px;
+		margin-left:-100px;
+	}
+	.interlineado{
+		line-height: 0.9;
+	}
+	.bannerFooter{
+		margin-left:400px;
+	}
+	.canchaFutbol{
+		display:none;
+	}
+	.logoYoutubeFooter{
+		position:absolute;
+	}
+	.imagenesNoticias{
+		height:100px;
+		width:100px;
+	}
+	
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	.primerSlide{
+		height:350px;
+		max-width: 100%;
+	}
+	.pruebaImagen2{
+		display: none;
+	}
+	.pruebaImagen3{
+		display: none;
+	}
+	.desaparecer{
+		display:none;
+	}
+	.primerCarousel{
+		width:100%;
+	}
+	.headerBanner{
+		height:100px;
+
+	}
+	.trayDepgrid1{
+		display:none;
+	}
+	.trayDepgrid3{
+		display:none;
+	}
+	.logoNike{
+		margin-top:100px;
+		margin-left:-250px;
+	}
+	.bannerFooter{
+		margin-left:100px;
+	}
+	.canchaFutbol{
+		display:none;
+	}
+	.cardJugador{
+		margin-left:180px;
+	}
+}
+
+
+
